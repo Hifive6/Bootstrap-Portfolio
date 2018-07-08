@@ -1,0 +1,10 @@
+body {
+    background-image:url(Images/cloudy-day/cloudy-day.png);
+}
+
+.content{
+    background-color: #ffff;
+    margin-left: 5%;
+    margin-right: 26%
+}
+
