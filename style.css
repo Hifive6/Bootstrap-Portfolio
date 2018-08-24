@@ -1,20 +1,49 @@
-html {
+
+body, html {
     height: 100%;
+     background-repeat:no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+   
+    background-image:url(https://images.pexels.com/photos/67832/sunrise-sky-blue-sunlight-67832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350);
+    
 }
 
-body {
-    height: 100%;
-    background-image:url(Images/cloudy-day/cloudy-day.png);
+* {
+    color: #fff;
 }
 
-.content{
-    background-color: #ffff;
-    margin-left: 5%;
-    margin-right: 26%
+
+
+
+#content{
+    margin: 4%;
+    margin-left: 4%;
+    margin-right: 26%;
 }
 
 .card-body {
     margin: -40px 0px;
 }
 
+#right {
+    margin: -15px 60%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
 
+img{
+    margin: 10px 30px;
+    
+}
+
+h2{
+    margin: 10px 30px;
+}
+
+.stuff{
+    background-color: rgb(7, 7, 126);
+}
