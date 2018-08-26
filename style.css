@@ -47,3 +47,7 @@ h2{
 .stuff{
     background-color: rgb(7, 7, 126);
 }
+
+#valid{
+    color: black;
+}
