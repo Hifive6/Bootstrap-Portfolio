@@ -1,14 +1,25 @@
-$("#submit").on("click" function(){
-    var valid = document.from1.name1.value;
-    console.log(valid);
-     if (valid === " ")
-      { 
-         alert("Please add Name");  	
-         return false; 
-      }  	
-      return true; 
+// $("#submit").on("click", function(){
+//     var valid = $("#valid").val();
     
-})
+    
+//      if (valid == )
+//       { 
+//          alert("Please add Name");  	
+//          return false; 
+//       }  	
+//       return true; 
+    
+// })
 
 
+// $('#valid').blur(function()
+// {
+//     
+//     }
+// });
+
+$("#submit").on("click", function() {
+if( $(this).val().length == 0 ) {
+    $(this).parents('p').addClass('warning');
     
+    }});

@@ -51,3 +51,7 @@ h2{
 #valid{
     color: black;
 }
+
+.warning{
+    background-color: red;
+}
