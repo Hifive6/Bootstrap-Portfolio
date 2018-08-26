@@ -19,7 +19,21 @@
 // });
 
 $("#submit").on("click", function() {
-if( $(this).val().length == 0 ) {
-    $(this).parents('p').addClass('warning');
+    required();
     
-    }});
+    });
+
+function required()
+{
+var empt = $("#valid").val().trim();
+if (empt === "")
+{
+alert("Please input a Value");
+return false;
+}
+else 
+{
+alert('Code has accepted : you can try another');
+return true; 
+}
+}
