@@ -1,34 +1,16 @@
-// $("#submit").on("click", function(){
-//     var valid = $("#valid").val();
-    
-    
-//      if (valid == )
-//       { 
-//          alert("Please add Name");  	
-//          return false; 
-//       }  	
-//       return true; 
-    
-// })
-
-
-// $('#valid').blur(function()
-// {
-//     
-//     }
-// });
-
 $("#submit").on("click", function() {
     requiredName();
-    requiredEmail();
+    
     
     });
 
 function requiredName()
 {
-var empt = $("#valid").val().trim();
-console.log(empt)
-if (empt === "")
+empt = $("#valid").val().trim();
+emptEmail = $("#email-Input").val().trim();
+valid = empt && emptEmail
+console.log(valid)
+if (valid === "")
 {
 alert("Please input a Value");
 return false;
@@ -40,18 +22,18 @@ return true;
 }
 }
 
-function requiredEmail()
-{
-var empt = $("#email-Input").val().trim();
-console.log(empt)
-if (empt === "")
-{
-alert("Please an Email");
-return false;
-}
-else 
-{
-alert('Code has accepted : you can try another');
-return true; 
-}
-}
+// function requiredEmail()
+// {
+
+// console.log(empt)
+// if (empt === "")
+// {
+// alert("Please an Email");
+// return false;
+// }
+// else 
+// {
+// alert('Code has accepted : you can try another');
+// return true; 
+// }
+// }
