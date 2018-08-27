@@ -21,7 +21,7 @@ alert('Code has accepted : you can try another');
 return true; 
 }
 }
-
+//add a function to pull to firebase and keep any message sent and they anther page to retrieve the messages
 // function requiredEmail()
 // {
 

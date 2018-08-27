@@ -1,19 +1,42 @@
 
-body, html {
+body {
+    
+    background-clip: url(https://pixabay.com/en/videos/energy-color-cosmos-abstract-16113/);
     height: 100%;
-     background-repeat:no-repeat; 
+     background-repeat:no-repeat;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
-   background-color: black;
-    /* background-image:url(https://images.pexels.com/photos/67832/sunrise-sky-blue-sunlight-67832.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350); */
-    
+   /* background-color: black; */
+ 
 }
+ #video-background{
+    
+        /*  making the video fullscreen  */
+          position: fixed;
+          left:0;
+          right: 0; 
+          bottom: 0;
+          min-width: 100%; 
+          min-height: 100%;
+          height: auto;
+          z-index: -200;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          overflow:hidden;
+          object-fit: cover;
+ }
+
 
 
 * {
     color: #fff;
+}
+
+img{
+    border-radius: 10%;
 }
 
 
@@ -29,9 +52,9 @@ body, html {
     margin: -40px 0px;
 }
 
-.card{
+/* .card{
     background-color: black;
-}
+} */
 
 #right {
     margin: -15px 60%;
@@ -64,5 +87,13 @@ h2{
 
 #form{
     margin: 10% 10%;
+}
+
+.tHeader{
+    overflow: hidden;
+    
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 
