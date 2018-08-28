@@ -1,7 +1,7 @@
 
 body {
     
-    background-clip: url(https://pixabay.com/en/videos/energy-color-cosmos-abstract-16113/);
+    
     height: 100%;
      background-repeat:no-repeat;  
   -webkit-background-size: cover;
@@ -90,7 +90,7 @@ h2{
 }
 
 .tHeader{
-    overflow: hidden;
+    /* overflow: hidden; */
     
     position: fixed; 
     top: 0; 
