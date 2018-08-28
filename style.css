@@ -35,7 +35,7 @@ body {
     color: #fff;
 }
 
-img{
+#picture{
     border-radius: 10%;
 }
 
@@ -95,5 +95,9 @@ h2{
     position: fixed; 
     top: 0; 
     width: 100%; 
+}
+
+.project{
+    margin-top: 10%;
 }
 
